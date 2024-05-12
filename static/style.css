@@ -1,0 +1,49 @@
+body, html {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 0;
+    margin: 0;
+    background: #e392fe;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f1c9fe;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #5e30eb;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ff40ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.story-output {
+    white-space: pre-wrap; /* Maintains whitespace formatting of the story */
+    background: #e9e9e9;
+    padding: 10px;
+    border-radius: 5px;
+}
